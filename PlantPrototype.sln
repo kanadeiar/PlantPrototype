@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0355456E-D965-469F-B8E9-E2305CA14A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED1189E9-CBE2-4A6E-93B4-4DFDB58282BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantPrototype", "src\PlantPrototype\PlantPrototype.csproj", "{E324B7C6-42B3-4CF3-A84D-CDE406876F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantPrototypeTests", "tests\PlantPrototypeTests\PlantPrototypeTests.csproj", "{2EB829B4-BA64-47ED-A1DE-CE65B25D2901}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{6CC7F6CB-D8BA-4344-AC00-F83B82ABFFD4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E324B7C6-42B3-4CF3-A84D-CDE406876F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E324B7C6-42B3-4CF3-A84D-CDE406876F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E324B7C6-42B3-4CF3-A84D-CDE406876F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E324B7C6-42B3-4CF3-A84D-CDE406876F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB829B4-BA64-47ED-A1DE-CE65B25D2901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB829B4-BA64-47ED-A1DE-CE65B25D2901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB829B4-BA64-47ED-A1DE-CE65B25D2901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB829B4-BA64-47ED-A1DE-CE65B25D2901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E324B7C6-42B3-4CF3-A84D-CDE406876F8E} = {0355456E-D965-469F-B8E9-E2305CA14A7A}
+		{2EB829B4-BA64-47ED-A1DE-CE65B25D2901} = {ED1189E9-CBE2-4A6E-93B4-4DFDB58282BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4E34B14-95D9-4CFF-B30B-F7C361BB93CA}
+	EndGlobalSection
+EndGlobal

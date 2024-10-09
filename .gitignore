@@ -396,3 +396,14 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore all lib client files
+**/wwwroot/lib
+**/wwwroot/css/site.min.css
+**/wwwroot/js/site.min.js.gz
+**/wwwroot/js/site.min.js
+
+# Ignore database files
+**.db
+**.db-shm
+**.db-wal
